@@ -3,9 +3,11 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
+          "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "convex:dev": "npx convex dev",
+  "convex:deploy": "npx convex deploy",
         "lint": "next lint"
     },
     "dependencies": {
